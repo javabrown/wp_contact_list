@@ -37,6 +37,8 @@ To create a zip file for distribution, you can use the provided shell script `cr
 1. Make sure you have the necessary permissions to execute the script.
 2. Run the script by executing the following command in your terminal:
    ```bash
+   chmod +x create_zip.sh
+
    ./create_zip.sh
 
 
