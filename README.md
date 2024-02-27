@@ -10,13 +10,14 @@ Custom Contact Plugin is a simple WordPress plugin that allows users to collect 
 
 ## Directory Structure
 The plugin directory structure is as follows:
-
+```
 custom-contact-plugin
 ├── custom-contact-plugin.php
 └── includes
-├── database.php
-└── shortcode.php
+    ├── database.php
+    └── shortcode.php
 
+```
 
 
 
