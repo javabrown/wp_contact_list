@@ -27,6 +27,14 @@ custom-contact-plugin
 3. Activate the plugin.
 4. Use the provided shortcode `[display_contacts]` to display the collected contact information on your WordPress site.
 
+## Create Database Table (incase plugin installation did'nt create table manually):
+```CREATE TABLE `wp_javabrowncontacts` (
+`id` mediumint(9) NOT NULL,
+`name` varchar(100) NOT NULL,
+`address` varchar(255) NOT NULL,
+`phone` varchar(20) NOT NULL
+)```
+
 ## Contribution
 Contributions are welcome! Feel free to submit issues or pull requests.
 
